@@ -1,0 +1,35 @@
+{
+  "name": "jyugemu",
+  "version": "0.1.0",
+  "description": "Command logging tool for Windows PowerShell",
+  "main": "dist/index.js",
+  "bin": {
+    "jyugemu": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "command",
+    "logging",
+    "powershell",
+    "windows"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "dayjs": "^1.11.10"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.10.6",
+    "fast-check": "^3.15.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  }
+}

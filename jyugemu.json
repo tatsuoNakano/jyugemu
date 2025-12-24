@@ -1,40 +1,11 @@
-{
-  "project": "my-awesome-app",
-  "version": "1.0.0",
-  "config": {
-    "ignore_list": ["rm -rf", "sudo", "shutdown"],
-    "mask_env": true,
-    "env_keys": ["API_KEY", "DB_PASSWORD", "SECRET_TOKEN"]
-  },
-  "history": [
-    {
-      "id": 1,
-      "timestamp": "2025-12-21T10:00:00Z",
-      "user": "tanaka",
-      "agent": null,
-      "command": "npm install",
-      "exit_code": 0,
-      "cwd": "/users/tanaka/projects/my-app"
-    },
-    {
-      "id": 2,
-      "timestamp": "2025-12-21T10:05:20Z",
-      "user": "gemini-pro-agent",
-      "agent": "LLM",
-      "command": "cat .env",
-      "exit_code": null,
-      "status": "BLOCKED",
-      "reason": "Security policy: Sensitive file access"
-    },
-    {
-      "id": 3,
-      "timestamp": "2025-12-21T10:10:00Z",
-      "user": "suzuki",
-      "agent": null,
-      "command": "export API_KEY=********",
-      "exit_code": 0,
-      "cwd": "/users/suzuki/projects/my-app",
-      "note": "Initial setup for API"
-    }
-  ]
+﻿{
+    "history":  [
+                    {
+                        "timestamp":  "2025-12-25T01:19:28.007Z",
+                        "user":  "tara7",
+                        "command":  "git status",
+                        "exit_code":  0,
+                        "cwd":  "C:\\Users\\tara7\\Desktop\\scripts\\jyugemu"
+                    }
+                ]
 }
